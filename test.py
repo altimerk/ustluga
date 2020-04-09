@@ -30,7 +30,7 @@ green = (0, 255, 0)
 red = (0, 0, 255)
 fn = 0
 d = deque([],5)
-out = cv2.VideoWriter('outpy.avi',cv2.VideoWriter_fourcc('M','J','P','G'), 25, (frame_width,frame_height))
+out = cv2.VideoWriter('outpy.avi',cv2.VideoWriter_fourcc('M','J','P','G'), 15, (frame_width,frame_height))
 while(True):
     ret, frame = cap.read()
     if not ret:
